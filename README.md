@@ -37,7 +37,7 @@ The interactive report is broken down into 5 targeted analytical views:
 
 ### 1. Executive Stockouts Overview
 *High-level summary of operational health, total lost revenue, and branch-by-branch stockout frequencies.*
-![Executive Stockouts](path/to/screenshot_page1.jpg)
+![Executive Stockouts]([path/to/screenshot_page1.jpg](https://github.com/Ballistic-02/Chicken-Republic-Analysis/blob/main/Charts%20for%20chicken%20republic/Screenshot%20(1055).png))
 
 ### 2. Stockout Deep-Dive
 *Granular tracking of days with stockouts correlated against specific operational hours and core product lines.*
