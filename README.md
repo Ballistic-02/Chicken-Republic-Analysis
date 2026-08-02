@@ -1,4 +1,4 @@
-# Chicken Republic Stockout & Demand Analysis Dashboard 🍗📊
+# Chicken Republic Stockout & Demand Analysis Dashboard 
 
 A comprehensive 5-page Power BI business intelligence project inspired by a real-world customer frustration: walking into a busy QSR (Quick Service Restaurant) branch during the evening rush only to find key menu items sold out. 
 
@@ -6,7 +6,7 @@ This project simulates retail and inventory metrics across major Lagos hubs (**A
 
 ---
 
-## 🚀 Project Overview & Problem Statement
+## Project Overview & Problem Statement
 In the Quick Service Restaurant industry, a **stockout** doesn't just mean a missed transaction; it impacts customer loyalty and long-term brand retention. This project analyzes operational logs to uncover:
 * Which branches and product lines suffer from the highest stockout rates.
 * The direct financial impact (Lost Revenue) of inventory gaps.
@@ -14,7 +14,7 @@ In the Quick Service Restaurant industry, a **stockout** doesn't just mean a mis
 
 ---
 
-## 🛠️ Tech Stack & Skills Demonstrated
+## Tech Stack & Skills Demonstrated
 * **Business Intelligence:** Power BI Desktop
 * **Data Modeling:** Star schema architecture with localized date, time, and branch dimensions.
 * **DAX (Data Analysis Expressions):** Advanced calculated columns and measures for dynamic KPIs, moving averages, and variance analysis.
@@ -22,7 +22,7 @@ In the Quick Service Restaurant industry, a **stockout** doesn't just mean a mis
 
 ---
 
-## 📉 Key Business Insights Uncovered
+## Key Business Insights Uncovered
 
 * **Financial Drain:** An overall stockout rate of **0.22** accounted for approximately **₦12M in Total Lost Revenue** across the tracked operational timeline.
 * **The Evening Bottleneck:** Stockouts are non-linear and highly time-dependent. A massive spike occurs between **6:00 PM and 8:00 PM (Hours 18–20)**, aligning perfectly with the post-work dinner rush.
@@ -31,40 +31,47 @@ In the Quick Service Restaurant industry, a **stockout** doesn't just mean a mis
 
 ---
 
-## 🖥️ Dashboard Architecture & Interface
+## Dashboard Architecture & Interface
 
 The interactive report is broken down into 5 targeted analytical views:
 
 ### 1. Executive Stockouts Overview
 *High-level summary of operational health, total lost revenue, and branch-by-branch stockout frequencies.*
-![Executive Stockouts]([path/to/screenshot_page1.jpg](https://github.com/Ballistic-02/Chicken-Republic-Analysis/blob/main/Charts%20for%20chicken%20republic/Screenshot%20(1055).png))
+![Executive Stockouts](<img width="1307" height="737" alt="Screenshot (1059)" src="https://github.com/user-attachments/assets/cf5da7d7-92f9-4ee0-84c2-c689af12f0ea" />
+>
+)
 
 ### 2. Stockout Deep-Dive
 *Granular tracking of days with stockouts correlated against specific operational hours and core product lines.*
-![Stockout Overview](path/to/screenshot_page2.jpg)
+![Stockout Overview](<img width="1301" height="740" alt="Screenshot (1058)" src="https://github.com/user-attachments/assets/855fcdff-dcf9-4c92-b7d1-facfc14c180c" />
+
+)
 
 ### 3. Demand Patterns
 *Time-intelligence analysis tracking hourly fluctuations, unit sales distribution, and peak day-of-week trends.*
-![Demand Patterns](path/to/screenshot_page3.jpg)
+![Demand Patterns](<img width="1310" height="734" alt="Screenshot (1057)" src="https://github.com/user-attachments/assets/9cfe504a-c136-4958-95eb-4f897754f723" />
+
 
 ### 4. External Drivers
 *Evaluates the impact of weather conditions (Rainy vs. Sunny) and active marketing promotional periods on branch footfall and inventory depletion rates.*
-![External Drivers](path/to/screenshot_page4.jpg)
+![External Drivers](<img width="1302" height="743" alt="Screenshot (1056)" src="https://github.com/user-attachments/assets/e7fe7eef-3244-40d6-952e-b6edaada4820" />
+
 
 ### 5. Stocking Efficiency
 *Operational metrics comparing leftover stock baselines against suggested opening inventory metrics to mitigate variances.*
-![Stocking Efficiency](path/to/screenshot_page5.jpg)
+![Stocking Efficiency](<img width="1310" height="742" alt="Screenshot (1055)" src="https://github.com/user-attachments/assets/a4f2599a-2ef3-409c-bff2-6e126a049740" />
+
 
 ---
 
-## 💡 Recommendations for Stakeholders
+## Recommendations for Stakeholders
 1. **Dynamic Buffer Stocking:** Transition from static morning stocking to a bifurcated replenishment strategy, injecting a secondary inventory buffer right before the **Hour 18 (6:00 PM)** dinner rush.
 2. **Targeted Supply Reallocation:** Prioritize supply chain distribution lines toward the **Ajah branch** to bring its 0.29 stockout rate back down to the regional baseline.
 3. **Core Product Safeguards:** Implement strict minimum threshold tracking on high-velocity items (e.g., core Fried Chicken lines) to ensure steady revenue retention.
 
 ---
 
-## 📂 How to Explore the Project
+## How to Explore the Project
 1. Clone this repository to your local machine.
 2. Open the `.pbix` file using **Power BI Desktop**.
 3. Ensure your local environment supports the dataset connections or interact with the published dashboard layout via screenshots provided above.
